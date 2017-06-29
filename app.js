@@ -1,3 +1,4 @@
+console.log("successfully linked app.js");
 /*
  * Use your own validation token. Check that the token used in the Webhook 
  * setup is the same token used here.
