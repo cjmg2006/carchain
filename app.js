@@ -20,7 +20,7 @@ app.get('/', function (req, res) {
 
 // for Facebook verification
 app.get('/webhook/', function (req, res) {
-	console.log(req.query['hub.verify_token']);
+	console.log(req.query['chainify-token']);
 	if (req.query['hub.verify_token'] === "chainify-token") {
 		res.send(req.query['hub.challenge'])
 	}
